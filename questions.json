@@ -1,0 +1,904 @@
+{
+  "questions": [
+    {
+      "question": "1. Czym jest zasada szacunku dla autonomii pacjenta?",
+      "correct_answer": "Jest to fundamentalna zasada, która zakłada, że kompetentny pacjent ma prawo do samodzielnego decydowania o swoim leczeniu, w tym do odmowy interwencji medycznych, nawet tych ratujących życie.",
+      "incorrect_answers": [
+        "Oznacza, że lekarz sam podejmuje decyzje, by chronić pacjenta przed ryzykiem.",
+        "Zakłada, że pacjent nie powinien mieć wpływu na wybór leczenia.",
+        "Pozwala jedynie na konsultacyjne podejmowanie decyzji, ale nie na ostateczną odmowę leczenia."
+      ]
+    },
+    {
+      "question": "2. Jakie warunki muszą być spełnione, aby zgoda pacjenta była uznana za świadomą?",
+      "correct_answer": "Pacjent musi być kompetentny, otrzymać pełną i zrozumiałą informację, wykazać zrozumienie sytuacji, wyrazić zgodę dobrowolnie i aktywnie potwierdzić swoją decyzję.",
+      "incorrect_answers": [
+        "Wystarczy, że pacjent wyrazi brak sprzeciwu, nawet jeśli nie zrozumiał przekazanych informacji.",
+        "Świadoma zgoda wymaga jedynie ustnej deklaracji pacjenta, bez konieczności pisemnej dokumentacji.",
+        "Zgoda jest świadoma, jeśli jedynie lekarz uzna, że pacjent rozumie ryzyko interwencji."
+      ]
+    },
+    {
+      "question": "3. Co oznacza pojęcie 'świadoma zgoda' według art. 5 Europejskiej Konwencji Bioetycznej?",
+      "correct_answer": "Oznacza, że pacjent przed interwencją medyczną musi otrzymać odpowiednie informacje o celu, naturze, konsekwencjach oraz ryzyku, a następnie wyrazić dobrowolną zgodę, którą może w każdej chwili wycofać.",
+      "incorrect_answers": [
+        "Oznacza, że pacjent wyraża zgodę tylko po otrzymaniu informacji o ryzyku.",
+        "Świadoma zgoda jest uznawana, gdy pacjent podpisze dokument, niezależnie od poziomu przekazanej wiedzy.",
+        "Zgoda jest świadoma, jeśli pacjent jedynie potwierdzi, że rozumie, iż interwencja będzie przeprowadzona."
+      ]
+    },
+    {
+      "question": "4. Który z elementów NIE jest warunkiem pełnej świadomej zgody?",
+      "correct_answer": "Brak wystarczających informacji dotyczących kosztów leczenia.",
+      "incorrect_answers": [
+        "Kompetencja pacjenta do podjęcia decyzji.",
+        "Ujawnienie celu, natury i konsekwencji interwencji.",
+        "Dobrowolność wyrażenia zgody bez nacisku."
+      ]
+    },
+    {
+      "question": "5. Co oznacza skrót DNR w kontekście opieki medycznej?",
+      "correct_answer": "Do not resuscitate – zgoda na nieprzeprowadzanie resuscytacji, co umożliwia godne umieranie.",
+      "incorrect_answers": [
+        "Do not respond – brak reakcji na interwencje medyczne.",
+        "Do not record – zakaz dokumentowania procedur.",
+        "Do not refer – brak skierowania na dalsze leczenie."
+      ]
+    },
+    {
+      "question": "6. Jakie są trzy zasadnicze znaczenia pojęcia 'świadoma zgoda'?",
+      "correct_answer": "Etyczne (autonomia moralna), prawne (kompetencja prawna i poczytalność) oraz kliniczne (faktyczna kompetencja decyzyjna).",
+      "incorrect_answers": [
+        "Medyczne, ekonomiczne i społeczne.",
+        "Psychologiczne, fizyczne i duchowe.",
+        "Administracyjne, techniczne i formalne."
+      ]
+    },
+    {
+      "question": "7. Kto może podejmować decyzje zastępcze w imieniu pacjentów niekompetentnych?",
+      "correct_answer": "Decyzje te mogą być podejmowane przez przedstawiciela ustawowego, osobę faktycznie opiekującą się pacjentem, opiekuna prawnego, zespół medyczny lub sąd – w zależności od konkretnej sytuacji.",
+      "incorrect_answers": [
+        "Tylko przez lekarza prowadzącego, bez udziału rodziny.",
+        "Wyłącznie przez sąd, niezależnie od stanu pacjenta.",
+        "Decyzje zastępcze nie są dopuszczalne – pacjent zawsze musi decydować sam."
+      ]
+    },
+    {
+      "question": "8. Jakie informacje muszą być przekazane pacjentowi przed interwencją medyczną?",
+      "correct_answer": "Pacjent musi zostać poinformowany o celu, naturze interwencji, jej konsekwencjach oraz ryzyku, co umożliwia mu świadome wyrażenie zgody.",
+      "incorrect_answers": [
+        "Wystarczy informacja o nazwie procedury, bez szczegółów.",
+        "Informacja dotyczy jedynie kosztów leczenia.",
+        "Pacjent musi być poinformowany tylko o ryzyku, a nie o celach interwencji."
+      ]
+    },
+    {
+      "question": "9. Czym jest kryterium najlepiej pojętego interesu pacjenta?",
+      "correct_answer": "Jest to kryterium, według którego decyzja o leczeniu ma zapewnić pacjentowi maksimum korzyści, uwzględniając przewidywaną jakość życia, ból i cierpienie.",
+      "incorrect_answers": [
+        "Ocenia się jedynie ekonomiczne koszty leczenia.",
+        "Decyzje opierane są tylko na opinii lekarza, bez uwzględnienia stanu pacjenta.",
+        "Kryterium ignoruje subiektywne odczucia pacjenta, skupiając się tylko na wskaźnikach medycznych."
+      ]
+    },
+    {
+      "question": "10. Jakie zasady obowiązują przy postępowaniu z pacjentami małoletnimi?",
+      "correct_answer": "Jeśli pacjent jest zdolny do świadomego wyrażenia zgody, lekarz stara się uzyskać również jego zgodę, jednak ostateczna decyzja należy do przedstawiciela ustawowego lub sądu w zależności od wieku i sytuacji.",
+      "incorrect_answers": [
+        "Małoletni mogą samodzielnie decydować o swoim leczeniu bez udziału opiekunów.",
+        "Decyzje dla małoletnich podejmuje wyłącznie lekarz bez konsultacji z rodzicami.",
+        "Opieka nad małoletnimi nie wymaga żadnych dodatkowych procedur prawnych."
+      ]
+    },
+    {
+      "question": "11. Co reguluje art. 18 Ustawy o ochronie zdrowia psychicznego w zakresie stosowania przymusu bezpośredniego?",
+      "correct_answer": "Art. 18 określa, że przymus bezpośredni (np. przytrzymanie, podanie leków, unieruchomienie, izolacja) może być stosowany wobec osoby z zaburzeniami psychicznymi tylko w przypadkach zagrożenia życia, zdrowia innych lub poważnego zakłócania funkcjonowania placówki.",
+      "incorrect_answers": [
+        "Pozwala na stosowanie przymusu wobec każdego pacjenta odmawiającego leczenia.",
+        "Reguluje tylko sytuacje, gdy pacjent odmawia przyjęcia leków, bez względu na jego stan.",
+        "Art. 18 dotyczy wyłącznie zastosowania izolacji, a nie innych form przymusu."
+      ]
+    },
+    {
+      "question": "12. Jakie formy przymusu bezpośredniego zostały wymienione w ustawie o ochronie zdrowia psychicznego?",
+      "correct_answer": "Wymienione formy to przytrzymanie, przymusowe podanie leków, unieruchomienie i izolacja.",
+      "incorrect_answers": [
+        "Izolacja oraz przymusowe karmienie, bez możliwości unieruchomienia.",
+        "Tylko przytrzymanie i izolacja, bez innych form interwencji.",
+        "Wyłącznie metoda unieruchomienia, bez stosowania leków czy izolacji."
+      ]
+    },
+    {
+      "question": "13. Co należy zrobić przed zastosowaniem przymusu bezpośredniego?",
+      "correct_answer": "Przed zastosowaniem przymusu należy uprzedzić osobę, wobec której ma być on zastosowany, aby zminimalizować stres i ewentualne zagrożenia.",
+      "incorrect_answers": [
+        "Natychmiast zastosować przymus bez uprzedzenia pacjenta.",
+        "Uzyskać zgodę rodziny pacjenta przed każdą interwencją.",
+        "Poinformować tylko personel medyczny, bez kontaktu z pacjentem."
+      ]
+    },
+    {
+      "question": "14. Jakie przedmioty należy odebrać pacjentowi poddawanemu przymusowi w formie unieruchomienia lub izolacji?",
+      "correct_answer": "Należy odebrać przedmioty, które mogą stanowić zagrożenie, takie jak przedmioty ostre, okulary, protezy, pasy, szelki, sznurowadła oraz źródła ognia.",
+      "incorrect_answers": [
+        "Tylko przedmioty elektroniczne.",
+        "Wszystkie przedmioty osobiste, bez względu na ich potencjalne zagrożenie.",
+        "Jedynie dokumenty tożsamości pacjenta."
+      ]
+    },
+    {
+      "question": "15. Jak często należy kontrolować stan fizyczny pacjenta unieruchomionego lub izolowanego?",
+      "correct_answer": "Stan pacjenta należy kontrolować przez pielęgniarkę nie rzadziej niż co 15 minut, również w czasie snu.",
+      "incorrect_answers": [
+        "Raz na godzinę.",
+        "Co 5 minut.",
+        "Tylko na początku i na końcu okresu przymusu."
+      ]
+    },
+    {
+      "question": "16. Na jak długo lekarz może zlecić zastosowanie przymusu bezpośredniego w formie unieruchomienia lub izolacji?",
+      "correct_answer": "Lekarz może zlecić ten środek na maksymalnie 4 godziny, z możliwością przedłużenia po osobistym badaniu pacjenta.",
+      "incorrect_answers": [
+        "Na okres do 24 godzin.",
+        "Na czas nieokreślony, dopóki pacjent nie wyrazi zgody.",
+        "Tylko na 1 godzinę, po czym należy natychmiast zakończyć interwencję."
+      ]
+    },
+    {
+      "question": "17. Kto podejmuje decyzję o zastosowaniu przymusu bezpośredniego, gdy nie ma możliwości natychmiastowego uzyskania decyzji lekarza?",
+      "correct_answer": "W takiej sytuacji decyzję podejmuje pielęgniarka, która nadzoruje wykonanie przymusu, niezwłocznie informując lekarza.",
+      "incorrect_answers": [
+        "Decyzję podejmuje administracja szpitala.",
+        "Rodzina pacjenta jest uprawniona do podjęcia takiej decyzji.",
+        "Inny pacjent obecny na oddziale, jako tymczasowy opiekun."
+      ]
+    },
+    {
+      "question": "18. Co reguluje art. 21 dotyczący przymusowego badania psychiatrycznego?",
+      "correct_answer": "Art. 21 pozwala na przeprowadzenie badania psychiatrycznego bez zgody pacjenta, jeżeli jego zachowanie wskazuje, że zagraża on własnemu życiu lub zdrowiu innych, także u małoletnich lub ubezwłasnowolnionych bez zgody przedstawiciela.",
+      "incorrect_answers": [
+        "Badanie można przeprowadzić tylko za zgodą pacjenta, niezależnie od sytuacji.",
+        "Przymusowe badanie dotyczy wyłącznie dorosłych pacjentów.",
+        "Decyzja o badaniu psychiatrycznym musi być zawsze zatwierdzona przez sąd."
+      ]
+    },
+    {
+      "question": "19. Kiedy, zgodnie z art. 22, możliwe jest przymusowe przyjęcie do szpitala psychiatrycznego?",
+      "correct_answer": "Przymusowe przyjęcie jest możliwe, gdy pacjent zagraża bezpośrednio własnemu życiu lub zdrowiu innych lub gdy istnieją wątpliwości co do jego stanu w celu wyjaśnienia diagnozy.",
+      "incorrect_answers": [
+        "Gdy pacjent wyłącznie wyraża sprzeciw wobec leczenia.",
+        "Tylko wtedy, gdy pacjent odmówi dobrowolnego przyjęcia, niezależnie od zachowania.",
+        "Wyłącznie na wniosek rodziny pacjenta, bez oceny klinicznej."
+      ]
+    },
+    {
+      "question": "20. Czym jest terapia daremna?",
+      "correct_answer": "Terapia daremna to leczenie, które nie przynosi zamierzonych efektów terapeutycznych, mimo zastosowania aktualnej wiedzy medycznej, szczególnie u pacjentów terminalnych, u których podtrzymywanie funkcji narządów tylko wydłuża proces umierania.",
+      "incorrect_answers": [
+        "Terapia daremna to każda interwencja medyczna, która przynosi szybkie efekty lecznicze.",
+        "Oznacza leczenie, które zawsze poprawia stan pacjenta, nawet jeśli trwa dłużej niż przewidziano.",
+        "Terapia daremna to procedura, w której decyzję o leczeniu podejmuje wyłącznie rodzina pacjenta."
+      ]
+    },
+    {
+      "question": "21. Kto podejmuje decyzję o daremności leczenia według KEL Art. 33?",
+      "correct_answer": "Decyzję o uznaniu terapii za daremną podejmuje zespół leczący, przy czym lekarz nie ma obowiązku stosowania terapii daremnej, a decyzja ta powinna uwzględniać wolę pacjenta.",
+      "incorrect_answers": [
+        "Decyzję podejmuje wyłącznie jeden lekarz, bez konsultacji.",
+        "Decyzję o daremności leczenia podejmuje rodzina pacjenta.",
+        "Decyzję podejmuje administracja szpitala, niezależnie od zespołu medycznego."
+      ]
+    },
+    {
+      "question": "22. Jakie są główne cele leczenia paliatywnego w kontekście terapii daremnej?",
+      "correct_answer": "Celem jest zapewnienie optymalnego komfortu pacjenta poprzez eliminację bólu, niepokoju, duszności oraz innych dolegliwości, nawet gdy podtrzymywanie funkcji narządów przestaje być efektywne.",
+      "incorrect_answers": [
+        "Celem jest przedłużenie życia pacjenta za wszelką cenę.",
+        "Leczenie paliatywne ma na celu wyłącznie poprawę wyników laboratoryjnych.",
+        "Celem jest całkowite odwrócenie procesów umierania pacjenta, niezależnie od komfortu."
+      ]
+    },
+    {
+      "question": "23. Jakie metody leczenia mogą być przedmiotem decyzji o ograniczeniu terapii daremnej na oddziale intensywnej terapii?",
+      "correct_answer": "Decyzje te mogą dotyczyć metod takich jak resuscytacja, wentylacja mechaniczna, leczenie nerkozastępcze, elektroterapia serca, mechaniczne i farmakologiczne wspomaganie krążenia oraz pozaustrojowe wspomaganie oddychania i funkcji wątroby.",
+      "incorrect_answers": [
+        "Ograniczenie dotyczy wyłącznie metod farmakologicznych, bez procedur inwazyjnych.",
+        "Decyzje podejmowane są tylko w zakresie reanimacji, nie obejmując innych metod.",
+        "Ograniczeniu podlegają wyłącznie procedury chirurgiczne, a nie metody wspomagające funkcje życiowe."
+      ]
+    },
+    {
+      "question": "24. Kto podejmuje decyzję o ograniczeniu terapii daremnej na oddziale intensywnej terapii?",
+      "correct_answer": "Decyzję podejmuje zespół dwóch lekarzy specjalistów (anestezjologii lub intensywnej terapii) w porozumieniu z lekarzem kierującym oddziałem, z możliwością konsultacji z dodatkowym specjalistą.",
+      "incorrect_answers": [
+        "Decyzję podejmuje wyłącznie lekarz kierujący oddziałem, bez udziału zespołu.",
+        "Decyzję podejmuje tylko pielęgniarka odpowiedzialna za opiekę nad pacjentem.",
+        "Decyzje są podejmowane przez administrację szpitala, niezależnie od opinii zespołu medycznego."
+      ]
+    },
+    {
+      "question": "25. Jaką rolę odgrywa komunikacja z pacjentem i jego rodziną przy ograniczaniu terapii daremnej?",
+      "correct_answer": "Właściwa komunikacja zapewnia, że rodzina i pacjent rozumieją medyczne i etyczne uzasadnienie decyzji, jednak ostateczna odpowiedzialność spoczywa na zespole medycznym.",
+      "incorrect_answers": [
+        "Rodzina pacjenta powinna sama podejmować decyzje o ograniczeniu terapii.",
+        "Komunikacja nie jest istotna, gdyż decyzje są podejmowane wyłącznie przez lekarzy.",
+        "Informowanie rodziny jest wymagane tylko w sytuacjach kryzysowych, nie przy każdej decyzji."
+      ]
+    },
+    {
+      "question": "26. Jakie czynniki nie mogą wpływać na decyzję o ograniczeniu terapii daremnej?",
+      "correct_answer": "Decyzja nie może być uwarunkowana wyłącznie kosztami leczenia ani względami organizacyjnymi, takimi jak zwolnienie stanowiska intensywnej terapii dla innego pacjenta.",
+      "incorrect_answers": [
+        "Koszty leczenia mogą być decydującym czynnikiem, jeśli przekładają się na efektywność terapii.",
+        "Aspekty organizacyjne mogą wpływać na decyzję, jeżeli są zgodne z procedurami szpitalnymi.",
+        "Decyzja może być częściowo oparta na kosztach, o ile nie wpływa to na medyczne uzasadnienie postępowania."
+      ]
+    },
+    {
+      "question": "27. Co reguluje KEL Art. 33 dotyczący resuscytacji u pacjentów terminalnych?",
+      "correct_answer": "Art. 33 stanowi, że lekarz nie ma obowiązku podejmowania i prowadzenia resuscytacji u pacjentów terminalnych, a decyzja o zaprzestaniu resuscytacji należy do lekarza lub zespołu lekarzy, oparta na negatywnej ocenie szans leczniczych.",
+      "incorrect_answers": [
+        "Art. 33 nakazuje podejmowanie resuscytacji u każdego pacjenta, niezależnie od stanu.",
+        "Decyzję o resuscytacji podejmuje wyłącznie rodzina pacjenta.",
+        "Resuscytacja u pacjentów terminalnych jest obowiązkowa, a decyzję podejmuje administracja szpitala."
+      ]
+    },
+    {
+      "question": "28. Jakie podstawowe prawa kobiet są istotne przy określaniu ochrony prawnej płodu?",
+      "correct_answer": "Do najważniejszych praw należą: ochrona przed nieludzkim, okrutnym i poniżającym traktowaniem, prawo do ochrony zdrowia i życia, prawo do równego traktowania (bez dyskryminacji ze względu na płeć), prawo do autonomii oraz prawo do prywatności.",
+      "incorrect_answers": [
+        "Prawo do decydowania o leczeniu innych osób oraz prawo do niezależnej edukacji.",
+        "Prawo do ochrony mienia oraz prawo do swobodnego podróżowania.",
+        "Prawo do ochrony przed ingerencją państwa, bez konieczności ochrony zdrowia."
+      ]
+    },
+    {
+      "question": "29. Jakie są główne warunki prowadzenia eksperymentów badawczych?",
+      "correct_answer": "Eksperymenty badawcze wymagają świadomej, pisemnej zgody uczestników, minimalnego poziomu ryzyka (bez trwałych negatywnych skutków) oraz muszą być prowadzone wyłącznie w celu rozwiązywania problemów naukowych, bez obietnicy bezpośredniej korzyści dla uczestników.",
+      "incorrect_answers": [
+        "W eksperymentach badawczych nie jest potrzebna pisemna zgoda, jeśli istnieje potencjał naukowy.",
+        "Eksperymenty mogą wiązać się z dowolnym poziomem ryzyka, jeśli korzyści są duże.",
+        "Zgoda uczestników nie jest wymagana, gdy badanie prowadzi do odkryć medycznych."
+      ]
+    },
+    {
+      "question": "30. Jakie warunki muszą być spełnione przy prowadzeniu eksperymentów leczniczych?",
+      "correct_answer": "Eksperymenty lecznicze wymagają, aby metoda była dostatecznie obiecująca dla pacjenta, poziom ryzyka nie przekraczał minimalnego poziomu (bez trwałych szkód), a spodziewane korzyści znacząco przewyższały ryzyko.",
+      "incorrect_answers": [
+        "Eksperymenty lecznicze mogą być przeprowadzane bez zgody, jeśli metoda jest nowatorska.",
+        "Ryzyko w eksperymentach leczniczych może być dowolnie wysokie, o ile korzyści są potencjalnie ogromne.",
+        "Zgoda pacjenta jest zbędna, jeśli eksperyment ma charakter pilny."
+      ]
+    },
+    {
+      "question": "31. Jakie zasady regulują prowadzenie eksperymentów na osobach niezdolnych do wyrażenia zgody?",
+      "correct_answer": "W takich eksperymentach należy uzyskać pisemną zgodę zastępczą od przedstawiciela ustawowego, a jeśli osoba badana jest w stanie wyrazić przyzwolenie, również jej zgodę; udział może być dopuszczalny tylko wtedy, gdy ryzyko nie przekracza minimalnego poziomu i badanie może przynieść korzyść dla danej grupy.",
+      "incorrect_answers": [
+        "Osoby niezdolne do wyrażenia zgody mogą być badane bez zgody zastępczej, jeśli korzyści są duże.",
+        "W eksperymentach na takich osobach nie ma ograniczeń dotyczących poziomu ryzyka.",
+        "Zgoda zastępcza nie jest potrzebna, gdy badanie prowadzi do odkryć naukowych."
+      ]
+    },
+    {
+      "question": "32. Jakie dokumenty i deklaracje regulują zasady prowadzenia eksperymentów na ludziach?",
+      "correct_answer": "Podstawowe dokumenty to Deklaracja Helsińska, Konwencja z Oviedo oraz Raport z Belmont, które określają zasady szacunku do osoby, dobroczynienia, nieszkodzenia i sprawiedliwości.",
+      "incorrect_answers": [
+        "Tylko Kodeks Etyki Lekarskiej reguluje te zasady.",
+        "Wyłącznie przepisy krajowe bez odniesienia do dokumentów międzynarodowych.",
+        "Deklaracja UNESCO i raport WHO są jedynymi wytycznymi w tej kwestii."
+      ]
+    },
+    {
+      "question": "33. W jakich przypadkach stosowanie placebo w badaniach klinicznych jest etycznie dopuszczalne?",
+      "correct_answer": "Placebo może być stosowane, gdy nie istnieje udowodniona skuteczna interwencja lub gdy wycofanie sprawdzonej metody nie stanowi niedopuszczalnego ryzyka dla uczestnika; przy tym ocena korzyści i ryzyka nowej interwencji odbywa się w porównaniu z najlepiej udokumentowaną metodą.",
+      "incorrect_answers": [
+        "Placebo można stosować we wszystkich badaniach, niezależnie od istnienia skutecznych metod.",
+        "Stosowanie placebo jest zawsze niedopuszczalne, gdyż pozbawia pacjentów szansy na leczenie.",
+        "Placebo może być stosowane tylko, gdy pacjent wyrazi zgodę na całkowite zrezygnowanie z leczenia."
+      ]
+    },
+    {
+      "question": "34. Jakie warunki określa Ustawa o zawodach lekarza i lekarza dentysty dotycząca stosowania placebo (art. 26)?",
+      "correct_answer": "Ustawa określa, że stosowanie placebo jest dopuszczalne jedynie wtedy, gdy nie istnieją udokumentowane skuteczne metody lub gdy wycofanie takich metod nie stanowi niedopuszczalnego ryzyka dla pacjenta.",
+      "incorrect_answers": [
+        "Placebo można stosować bez względu na istnienie skutecznych metod, o ile pacjent wyrazi zgodę.",
+        "Ustawa pozwala na stosowanie placebo zawsze, jeśli badana interwencja jest nowatorska.",
+        "Placebo może być stosowane tylko wtedy, gdy pacjent nie ma żadnych innych opcji terapeutycznych."
+      ]
+    },
+    {
+      "question": "35. Co oznacza model 'opting in' przy pozyskiwaniu narządów ex mortuo?",
+      "correct_answer": "Model 'opting in' polega na wyraźnej, świadomej zgodzie dawcy wyrażonej za życia, która umożliwia późniejsze pobranie narządów po śmierci.",
+      "incorrect_answers": [
+        "Model, w którym pobranie narządów następuje domyślnie, o ile nie wyrazi się sprzeciwu.",
+        "System, w którym rodzina decyduje o pobraniu narządów niezależnie od woli dawcy.",
+        "Model, w którym zgoda dawcy jest uznawana wyłącznie na podstawie ustnych deklaracji."
+      ]
+    },
+    {
+      "question": "36. Co to jest model 'opting out' w kontekście pobierania narządów ex mortuo i jaki model obowiązuje w Polsce?",
+      "correct_answer": "Model 'opting out' zakłada, że pobranie narządów następuje, o ile za życia nie został wyrażony sprzeciw; w Polsce obowiązuje właśnie taki system.",
+      "incorrect_answers": [
+        "Model 'opting in' obowiązuje w Polsce, gdzie dawca musi wyrazić zgodę za życia.",
+        "System mieszany, w którym decyzja należy do rodziny zmarłego.",
+        "Model, w którym pobieranie narządów odbywa się bez jakiejkolwiek zgody dawcy lub rodziny."
+      ]
+    },
+    {
+      "question": "37. Jakie etyczne argumenty przemawiają za pobieraniem narządów od żywych dawców?",
+      "correct_answer": "Za: lepsza zgodność tkankowa, mniejsze zapotrzebowanie na leki immunosupresyjne, krótszy czas hospitalizacji i lepsze wyniki transplantacji dzięki wyższej jakości organów.",
+      "incorrect_answers": [
+        "Za: brak jakiegokolwiek ryzyka dla dawcy oraz całkowite bezpieczeństwo procedury.",
+        "Za: procedura jest tańsza i szybsza niż pobieranie narządów od zmarłych dawców.",
+        "Za: pobieranie organów od żywych dawców nie budzi żadnych dylematów etycznych."
+      ]
+    },
+    {
+      "question": "38. Jakie są główne zastrzeżenia wobec pobierania narządów od żywych dawców?",
+      "correct_answer": "Przeciw: ryzyko zdrowotne dla dawcy, potencjalna presja ze strony rodziny lub otoczenia oraz zagrożenie dla autonomii dawcy (zasada 'primum non nocere').",
+      "incorrect_answers": [
+        "Przeciw: pobieranie narządów od żywych dawców jest zawsze bezpieczne i nie budzi żadnych obaw.",
+        "Przeciw: procedura jest zbyt kosztowna i nieefektywna w porównaniu do pobierania narządów od zmarłych dawców.",
+        "Przeciw: pobieranie narządów od żywych dawców jest zakazane przez prawo międzynarodowe."
+      ]
+    },
+    {
+      "question": "39. Jakie kryteria stosuje się przy selekcji pacjentów w sytuacji ograniczonych zasobów medycznych?",
+      "correct_answer": "Kryteria obejmują zasadę pilności interwencji, gdzie pacjenci w gorszym stanie mają pierwszeństwo, a w przypadku równorzędnych sytuacji stosuje się kryteria losowe (np. kolejność zgłoszeń), zawsze z poszanowaniem równości i niedyskryminacji.",
+      "incorrect_answers": [
+        "Selekcja odbywa się wyłącznie na podstawie wieku pacjenta, przy czym młodsi mają pierwszeństwo.",
+        "Decyzje o leczeniu są podejmowane losowo, bez względu na stan kliniczny pacjenta.",
+        "Selekcja opiera się jedynie na kryteriach ekonomicznych i dostępności środków."
+      ]
+    },
+    {
+      "question": "40. Co oznaczają wskaźniki QALY i DALY w analizie efektywności kosztowej świadczeń zdrowotnych?",
+      "correct_answer": "QALY mierzy jakość i długość życia (quality-adjusted life year), a DALY – lata utracone z powodu choroby lub niepełnosprawności (disability-adjusted life years); obie miary służą do oceny stosunku kosztów do uzyskanych korzyści zdrowotnych.",
+      "incorrect_answers": [
+        "QALY mierzy wyłącznie długość życia, a DALY – jedynie poziom bólu pacjenta.",
+        "Oba wskaźniki służą tylko do obliczania kosztów leczenia, bez oceny jakości życia.",
+        "QALY i DALY są stosowane tylko w badaniach epidemiologicznych, a nie przy alokacji zasobów."
+      ]
+    },
+    {
+      "question": "41. Jakie ograniczenia wiążą się z wykorzystaniem wskaźnika QALY?",
+      "correct_answer": "Ograniczeniem jest ryzyko dyskryminacji grup o krótszej oczekiwanej długości życia (np. osób starszych) oraz trudności w pełnym ujęciu jakości życia w jednej liczbie.",
+      "incorrect_answers": [
+        "QALY nie uwzględnia kosztów leczenia, a jedynie efektywność medyczną.",
+        "Wskaźnik ten jest stosowany wyłącznie do analizy kosztów, bez oceny korzyści zdrowotnych.",
+        "QALY jest miarą idealną, bez żadnych ograniczeń metodologicznych."
+      ]
+    },
+    {
+      "question": "42. Jakie zalety i wady wiążą się z wykorzystaniem DALY w analizie obciążenia chorobami?",
+      "correct_answer": "DALY pozwala oszacować łączną stratę zdrowia w populacji, ale może być trudny do precyzyjnego ujęcia ze względu na subiektywny charakter oceny niepełnosprawności i przedwczesnej śmierci.",
+      "incorrect_answers": [
+        "DALY uwzględnia wyłącznie koszty leczenia, nie zaś straty zdrowotne.",
+        "Wskaźnik DALY jest prosty do obliczenia i nie budzi kontrowersji metodologicznych.",
+        "DALY mierzy tylko liczbę zachorowań, nie uwzględniając ich ciężkości."
+      ]
+    },
+    {
+      "question": "43. Czym jest sedacja paliatywna i w jakiej sytuacji jest stosowana?",
+      "correct_answer": "Sedacja paliatywna to celowe uśpienie pacjenta w celu złagodzenia niekontrolowanego bólu i innych nieprzyjemnych objawów, stosowana w ostateczności u pacjentów terminalnych, u których nie można inaczej uśmierzyć dolegliwości.",
+      "incorrect_answers": [
+        "Sedacja paliatywna polega na przywróceniu funkcji życiowych pacjenta.",
+        "Jest to procedura mająca na celu przyspieszenie śmierci pacjenta.",
+        "Sedacja paliatywna jest stosowana wyłącznie przed przeprowadzeniem eutanazji."
+      ]
+    },
+    {
+      "question": "44. Czym różni się eutanazja od sedacji paliatywnej?",
+      "correct_answer": "Eutanazja to celowe działanie lekarza mające na celu spowodowanie śmierci pacjenta na jego dobrowolne żądanie, natomiast sedacja paliatywna polega na uśpieniu pacjenta w celu złagodzenia cierpienia, bez intencji bezpośredniego zakończenia życia.",
+      "incorrect_answers": [
+        "Obie procedury mają na celu natychmiastowe zakończenie życia pacjenta.",
+        "Eutanazja nie wymaga zgody pacjenta, a sedacja paliatywna tak.",
+        "Sedacja paliatywna zawsze prowadzi do śmierci, a eutanazja nie."
+      ]
+    },
+    {
+      "question": "45. Jakie argumenty przemawiają za uznaniem klinicznie wspomaganego odżywiania i nawadniania (CANH) za leczenie daremne u pacjentów terminalnych?",
+      "correct_answer": "Argumenty obejmują: brak poprawy jakości życia, wydłużanie procesu umierania oraz potencjalne wywoływanie dodatkowego cierpienia, np. z powodu ryzyka infekcji lub problemów trawiennych.",
+      "incorrect_answers": [
+        "CANH zawsze poprawia stan zdrowia i jakość życia pacjenta.",
+        "Odżywianie i nawadnianie nie są uznawane za elementy leczenia daremnego, gdyż są podstawowymi potrzebami biologicznymi.",
+        "CANH jest uznawane za leczenie daremne tylko, gdy pacjent wyrazi sprzeciw wobec procedury."
+      ]
+    },
+    {
+      "question": "46. Jakie argumenty przemawiają przeciw uznaniu CANH za leczenie daremne?",
+      "correct_answer": "Przeciw: CANH jest podstawową potrzebą biologiczną, może przyczynić się do poprawy stanu pacjenta w pewnych sytuacjach, a decyzja o jej stosowaniu powinna być indywidualnie dostosowana do przypadku, uwzględniając wolę pacjenta.",
+      "incorrect_answers": [
+        "Przeciw: CANH zawsze prowadzi do przedłużenia cierpienia pacjenta, bez względu na kontekst kliniczny.",
+        "Przeciw: Odmowa CANH jest jednoznaczna z zaniedbaniem obowiązku medycznego.",
+        "Przeciw: CANH nie ma żadnych zalet i zawsze powinna być pomijana."
+      ]
+    },
+    {
+      "question": "47. Co to jest przywilej terapeutyczny i w jakich sytuacjach może być stosowany?",
+      "correct_answer": "Przywilej terapeutyczny pozwala lekarzowi na zatajenie pewnych informacji o niepomyślnym rokowaniu, jeśli uważa, że ich ujawnienie mogłoby pogorszyć stan pacjenta, przy czym informacje te muszą być ujawnione na żądanie pacjenta.",
+      "incorrect_answers": [
+        "Pozwala lekarzowi na całkowite ukrycie diagnozy przed pacjentem bez obowiązku jej ujawnienia.",
+        "Umożliwia lekarzowi podejmowanie decyzji bez konsultacji z pacjentem, nawet gdy ten o nie zażąda.",
+        "Jest stosowany wyłącznie w celu ukrywania błędów medycznych przed pacjentem."
+      ]
+    },
+    {
+      "question": "48. Jakie warunki muszą być spełnione, aby lekarz mógł skorzystać z przywileju terapeutycznego według Kodeksu Etyki Lekarskiej?",
+      "correct_answer": "Lekarz może zastosować przywilej, gdy jest przekonany, że ujawnienie pełnej diagnozy mogłoby znacząco pogorszyć stan pacjenta, ale musi udzielić pełnych informacji, jeśli pacjent o to poprosi.",
+      "incorrect_answers": [
+        "Lekarz może stosować przywilej terapeutyczny, niezależnie od woli pacjenta, bez obowiązku informowania kogokolwiek.",
+        "Warunkiem jest, aby pacjent z góry zrzekł się prawa do pełnej informacji o swojej diagnozie.",
+        "Przywilej terapeutyczny pozwala lekarzowi ukryć informacje na stałe, bez konieczności dokumentowania tego faktu."
+      ]
+    },
+    {
+      "question": "49. Czym jest klauzula sumienia w kontekście świadczeń zdrowotnych?",
+      "correct_answer": "Klauzula sumienia to prawo lekarza do powstrzymania się od wykonania świadczeń, które są sprzeczne z jego głęboko zakorzenionymi przekonaniami etycznymi, przy czym w sytuacjach zagrożenia życia obowiązek pomocy ma pierwszeństwo.",
+      "incorrect_answers": [
+        "Klauzula sumienia umożliwia lekarzowi odmowę świadczeń bez żadnych konsekwencji.",
+        "Pozwala lekarzowi na odmowę udzielenia pomocy w każdej sytuacji, bez względu na zagrożenie życia pacjenta.",
+        "Jest to mechanizm, dzięki któremu lekarz może całkowicie zignorować obowiązki wynikające z umowy o pracę."
+      ]
+    },
+    {
+      "question": "50. Jakie dodatkowe obowiązki mają lekarze zatrudnieni na podstawie stosunku pracy w kontekście klauzuli sumienia?",
+      "correct_answer": "Muszą uprzednio powiadomić na piśmie swojego przełożonego oraz odnotować w dokumentacji medycznej fakt powołania się na klauzulę sumienia.",
+      "incorrect_answers": [
+        "Nie mają żadnych dodatkowych obowiązków, wystarczy tylko osobiste przekonanie lekarza.",
+        "Muszą uzyskać zgodę pacjenta przed odmową świadczenia, ale nie powiadamiać przełożonych.",
+        "Powinni informować jedynie rodzinę pacjenta o swojej decyzji, bez konieczności dokumentacji."
+      ]
+    },
+    {
+      "question": "51. Jakie podstawowe prawa kobiet są brane pod uwagę przy określaniu ochrony prawnej płodu?",
+      "correct_answer": "Prawa takie jak ochrona przed nieludzkim, okrutnym i poniżającym traktowaniem, prawo do ochrony zdrowia i życia, prawo do równego traktowania, autonomii i prywatności.",
+      "incorrect_answers": [
+        "Prawo do wolności wyznania i prawo do swobodnego podróżowania.",
+        "Prawo do decydowania o majątku oraz prawo do niezależnej edukacji.",
+        "Prawo do ochrony przed ingerencją państwa w życie prywatne, ale bez odniesienia do zdrowia."
+      ]
+    },
+    {
+      "question": "52. Jakie warunki muszą być spełnione, aby eksperyment medyczny został uznany za etycznie dopuszczalny?",
+      "correct_answer": "Należy uzyskać świadomą, pisemną zgodę uczestników, zapewnić minimalny poziom ryzyka (bez trwałych szkód) oraz zagwarantować, że dobro uczestnika nie zostanie naruszone, nawet jeśli badanie nie przynosi bezpośrednich korzyści.",
+      "incorrect_answers": [
+        "Wystarczy uzyskać ustną zgodę, a poziom ryzyka nie jest istotny, jeśli badanie przyniesie nowe odkrycia.",
+        "Eksperymenty mogą być przeprowadzane bez zgody, jeżeli prowadzą do postępu naukowego.",
+        "Warunki etyczne są zbędne, jeśli uczestnicy są poinformowani o możliwych korzyściach."
+      ]
+    },
+    {
+      "question": "53. Jakie kryteria muszą być spełnione przy prowadzeniu eksperymentów leczniczych na pacjentach?",
+      "correct_answer": "Metoda musi dawać rozsądną szansę powodzenia, ryzyko nie może przekraczać minimalnego poziomu, a spodziewane korzyści muszą znacząco przewyższać ryzyko.",
+      "incorrect_answers": [
+        "Metoda może być eksperymentalna, nawet jeśli ryzyko jest wysokie, o ile przyniesie rewolucyjne odkrycia.",
+        "W eksperymentach leczniczych zgoda pacjenta nie jest wymagana, jeśli lekarz jest przekonany o skuteczności metody.",
+        "Kryteria ryzyka są mniej istotne, jeśli pacjent jest terminalny."
+      ]
+    },
+    {
+      "question": "54. W jakich sytuacjach stosowanie eksperymentów na osobach niezdolnych do wyrażenia zgody jest dopuszczalne?",
+      "correct_answer": "Jest dopuszczalne, jeśli uzyskana zostanie pisemna zgoda zastępcza od przedstawiciela ustawowego, a udział nie wiąże się z ryzykiem przekraczającym minimalny poziom oraz może przynieść korzyść dla populacji reprezentowanej przez uczestnika.",
+      "incorrect_answers": [
+        "Takie eksperymenty można prowadzić bez zgody zastępczej, jeżeli korzyści są duże.",
+        "Osoby niezdolne do wyrażenia zgody mogą być badane bez ograniczeń ryzyka, jeśli badanie dotyczy chorób rzadkich.",
+        "Eksperymenty na takich osobach są zawsze zabronione, niezależnie od zgody przedstawiciela."
+      ]
+    },
+    {
+      "question": "55. Jakie kryteria powinny być spełnione przy stosowaniu placebo w badaniach klinicznych?",
+      "correct_answer": "Placebo może być stosowane jedynie wtedy, gdy nie istnieje udowodniona skuteczna interwencja lub gdy wycofanie sprawdzonej metody nie stanowi niedopuszczalnego ryzyka dla uczestnika, przy jednoczesnej ocenie korzyści, ryzyka i obciążeń.",
+      "incorrect_answers": [
+        "Placebo można stosować niezależnie od istnienia skutecznych metod, o ile pacjent wyrazi zgodę.",
+        "Placebo powinno być stosowane zawsze, jeśli badana interwencja jest nowa, bez względu na ryzyko.",
+        "Stosowanie placebo jest dopuszczalne tylko w badaniach, gdzie pacjent wyraźnie zrzeka się wszelkich metod leczenia."
+      ]
+    },
+    {
+      "question": "56. Jakie modele pozyskiwania narządów ex mortuo istnieją i który z nich obowiązuje w Polsce?",
+      "correct_answer": "Wyróżnia się model 'opting in' (zgoda wyrażona) oraz 'opting out' (zgoda domniemana); w Polsce obowiązuje system 'opting out', gdzie pobranie narządów następuje, jeśli za życia nie został wyrażony sprzeciw.",
+      "incorrect_answers": [
+        "W Polsce obowiązuje model 'opting in', gdzie dawca musi aktywnie wyrazić zgodę.",
+        "Obowiązuje system mieszany, gdzie decyzję o pobraniu podejmuje rodzina zmarłego.",
+        "Model 'opting out' jest stosowany tylko w krajach zachodnich, a w Polsce nie ma regulacji."
+      ]
+    },
+    {
+      "question": "57. Jakie etyczne i medyczne argumenty przemawiają za pobieraniem narządów od żywych dawców?",
+      "correct_answer": "Argumenty obejmują lepszą zgodność tkankową, mniejsze ryzyko odrzutu, krótszy czas hospitalizacji i niższe koszty pooperacyjne, co przekłada się na lepsze wyniki transplantacji.",
+      "incorrect_answers": [
+        "Żywy dawca nie ponosi żadnego ryzyka, więc pobieranie narządów jest całkowicie bezpieczne.",
+        "Pobieranie narządów od żywych dawców jest zawsze bardziej etyczne niż od zmarłych.",
+        "Korzyści medyczne są drugorzędne wobec ekonomicznych zalet tej procedury."
+      ]
+    },
+    {
+      "question": "58. Jakie są główne wady i zastrzeżenia wobec pobierania narządów od żywych dawców?",
+      "correct_answer": "Wadami są ryzyko dla zdrowia dawcy, możliwa presja rodzin i zagrożenie dla autonomii dawcy, co rodzi poważne dylematy etyczne dotyczące zasad 'primum non nocere'.",
+      "incorrect_answers": [
+        "Nie ma żadnych wad, pobieranie narządów od żywych dawców jest zawsze korzystne.",
+        "Głównym problemem jest wyłącznie wysoki koszt procedury, a nie ryzyko dla dawcy.",
+        "Pobieranie narządów od żywych dawców jest etyczne, o ile wyniki transplantacji są lepsze."
+      ]
+    },
+    {
+      "question": "59. Jakie kryteria selekcji pacjentów są stosowane przy ograniczonych zasobach medycznych?",
+      "correct_answer": "Decyzje opierają się na pilności interwencji, kolejności zgłoszeń przy równorzędnych przypadkach oraz wcześniejszych świadczeniach pacjenta, zawsze przy zachowaniu zasady równości i braku dyskryminacji.",
+      "incorrect_answers": [
+        "Selekcja odbywa się wyłącznie na podstawie wieku pacjenta, gdzie młodsi mają pierwszeństwo.",
+        "Pacjenci wybierani są losowo, bez uwzględnienia stanu zdrowia.",
+        "Decyzje podejmowane są jedynie na podstawie ekonomicznych analiz kosztów leczenia."
+      ]
+    },
+    {
+      "question": "60. Jakie etyczne wyzwania wiążą się z racjonalizacją dostępu do ograniczonych zasobów medycznych?",
+      "correct_answer": "Wyzwania obejmują potencjalną dyskryminację pacjentów, konflikt między zasadą równości a ekonomiczną efektywnością oraz trudności w ustaleniu obiektywnych kryteriów selekcji.",
+      "incorrect_answers": [
+        "Nie ma żadnych etycznych wyzwań, gdyż decyzje są podejmowane wyłącznie na podstawie danych ekonomicznych.",
+        "Racjonalizacja dostępu dotyczy tylko aspektów administracyjnych, a nie etycznych.",
+        "Etyczne wyzwania pojawiają się jedynie w sytuacjach kryzysowych, a nie w codziennej praktyce."
+      ]
+    },
+    {
+      "question": "61. Jak oblicza się wskaźnik QALY i jakie znaczenie ma on w ocenie efektywności świadczeń zdrowotnych?",
+      "correct_answer": "QALY oblicza się jako iloczyn oczekiwanej długości życia i współczynnika jakości życia, co pozwala określić, ile 'jakościowych' lat życia uzyskuje pacjent w wyniku leczenia.",
+      "incorrect_answers": [
+        "QALY mierzy jedynie długość życia, bez uwzględnienia jakości.",
+        "QALY oblicza się na podstawie kosztów leczenia, a nie efektów klinicznych.",
+        "Wskaźnik ten stosuje się tylko w badaniach epidemiologicznych, a nie w analizach ekonomicznych."
+      ]
+    },
+    {
+      "question": "62. Co oznacza wskaźnik DALY i do czego służy?",
+      "correct_answer": "DALY mierzy sumę lat życia utraconych z powodu przedwczesnej śmierci lub niepełnosprawności, co pozwala ocenić obciążenie chorobami w populacji.",
+      "incorrect_answers": [
+        "DALY mierzy wyłącznie koszty leczenia, a nie obciążenie zdrowotne.",
+        "DALY to wskaźnik, który ocenia jedynie jakość życia, bez uwzględnienia długości życia.",
+        "Wskaźnik ten jest stosowany tylko w krajach rozwiniętych, a nie globalnie."
+      ]
+    },
+    {
+      "question": "63. Jakie wady wiążą się z wykorzystaniem wskaźników QALY i DALY w podejmowaniu decyzji o alokacji środków?",
+      "correct_answer": "Mogą one prowadzić do dyskryminacji grup, takich jak osoby starsze czy cierpiące na choroby przewlekłe, gdyż koszty uzyskania jednostki QALY mogą być wyższe w tych grupach.",
+      "incorrect_answers": [
+        "Nie mają żadnych wad i są uznawane za idealne narzędzia decyzyjne.",
+        "Wskaźniki te nie uwzględniają żadnych aspektów jakości życia.",
+        "QALY i DALY są używane tylko do celów statystycznych, a nie do podejmowania decyzji o alokacji środków."
+      ]
+    },
+    {
+      "question": "64. Jakie są główne zasady etyczne przydzielania ograniczonych zasobów medycznych?",
+      "correct_answer": "Należą do nich: zasada pilności interwencji, zasada sprawiedliwości (równa dystrybucja), brak dyskryminacji oraz uwzględnienie korzyści i obciążeń dla pacjenta.",
+      "incorrect_answers": [
+        "Decyzje opierają się wyłącznie na kryteriach ekonomicznych, bez względu na stan pacjenta.",
+        "Główne zasady to przede wszystkim ochrona interesów finansowych szpitala.",
+        "Priorytet przydziału zawsze mają młodsi pacjenci, niezależnie od stanu zdrowia."
+      ]
+    },
+    {
+      "question": "65. Jakie dokumenty i regulacje odnoszą się do eksperymentów medycznych na ludziach?",
+      "correct_answer": "Kluczowe dokumenty to Deklaracja Helsińska, Konwencja z Oviedo oraz Raport z Belmont, które określają zasady szacunku dla osoby, dobroczynienia, nieszkodzenia i sprawiedliwości.",
+      "incorrect_answers": [
+        "Tylko Kodeks Etyki Lekarskiej reguluje eksperymenty medyczne.",
+        "Wyłącznie przepisy krajowe, bez odniesienia do dokumentów międzynarodowych.",
+        "Eksperymenty medyczne nie są regulowane przez żadne dokumenty międzynarodowe."
+      ]
+    },
+    {
+      "question": "66. Jakie wymagania formalne musi spełniać zgoda na udział w eksperymencie medycznym?",
+      "correct_answer": "Zgoda musi być świadoma, wyrażona w formie pisemnej, zawierać możliwość zadawania pytań i wyjaśnień, oraz umożliwiać odstąpienie od udziału w dowolnym momencie bez konsekwencji.",
+      "incorrect_answers": [
+        "Zgoda może być udzielona ustnie, jeśli pacjent czuje się komfortowo.",
+        "Wystarczy, że pacjent podpisze formularz bez możliwości późniejszego wycofania zgody.",
+        "Zgoda jest zbędna, jeśli eksperyment dotyczy chorób terminalnych."
+      ]
+    },
+    {
+      "question": "67. Jakie kryteria muszą być spełnione, aby eksperyment medyczny nie narażał pacjenta na trwałe negatywne skutki?",
+      "correct_answer": "Ryzyko musi być minimalne, co oznacza, że procedura nie może przewidywać trwałych szkód dla zdrowia pacjenta, a potencjalne korzyści muszą przewyższać ryzyko.",
+      "incorrect_answers": [
+        "Ryzyko może być wysokie, jeśli badanie prowadzi do przełomowych odkryć.",
+        "Tymczasowe negatywne skutki są akceptowalne, niezależnie od trwałości szkód.",
+        "Ryzyko nie jest istotne, jeśli pacjent jest terminalny."
+      ]
+    },
+    {
+      "question": "68. Jakie procedury muszą być przestrzegane przy eksperymentach na osobach niezdolnych do wyrażenia zgody według Konwencji z Oviedo?",
+      "correct_answer": "Należy uzyskać pisemną zgodę zastępczą, a jeśli uczestnik jest w stanie wyrazić przyzwolenie, również jego zgodę; eksperyment nie może wiązać się z ryzykiem przekraczającym minimalny poziom oraz powinien mieć potencjalną korzyść dla populacji, którą reprezentuje uczestnik.",
+      "incorrect_answers": [
+        "Eksperymenty na takich osobach mogą być prowadzone bez zgody zastępczej, jeśli potencjalne korzyści są duże.",
+        "W eksperymentach na osobach niezdolnych do wyrażenia zgody nie ma ograniczeń ryzyka.",
+        "Wystarczy uzyskać ustną zgodę od członka rodziny, bez formalności pisemnej."
+      ]
+    },
+    {
+      "question": "69. Jakie są zasady stosowania placebo według Deklaracji Helsińskiej WMA 2024?",
+      "correct_answer": "Placebo stosuje się, gdy nie ma udokumentowanej skutecznej interwencji lub gdy wycofanie sprawdzonej metody nie stwarza niedopuszczalnego ryzyka, przy jednoczesnej ocenie korzyści, ryzyka i obciążeń nowej interwencji względem najlepszej udokumentowanej metody.",
+      "incorrect_answers": [
+        "Placebo może być stosowane we wszystkich badaniach klinicznych, niezależnie od dostępności skutecznych metod.",
+        "Deklaracja Helsińska zabrania stosowania placebo, jeżeli istnieje jakakolwiek skuteczna metoda leczenia.",
+        "Placebo powinno być stosowane tylko wtedy, gdy pacjent wyrazi na to zgodę."
+      ]
+    },
+    {
+      "question": "70. Jakie aspekty etyczne należy brać pod uwagę przy stosowaniu placebo w badaniach klinicznych?",
+      "correct_answer": "Należy ocenić, czy zastosowanie placebo nie pozbawia pacjentów dostępu do sprawdzonej interwencji, oraz czy badani nie są narażeni na dodatkowe ryzyko poważnych lub nieodwracalnych szkód.",
+      "incorrect_answers": [
+        "Aspekty etyczne nie mają znaczenia, jeśli badanie ma potencjał naukowy.",
+        "Placebo można stosować bez ograniczeń, gdyż ma na celu wyłącznie ocenę skuteczności nowej metody.",
+        "Kwestie etyczne są pomijane, gdyż placebo jest metodą standardową w badaniach klinicznych."
+      ]
+    },
+    {
+      "question": "71. Jakie regulacje prawne dotyczą pobierania narządów ex mortuo w Polsce?",
+      "correct_answer": "Pobieranie narządów reguluje Ustawa o pobieraniu, przechowywaniu i przeszczepianiu komórek, tkanek i narządów, która przewiduje system zgody domniemanej (opting out), przy czym rodzina nie może decydować o losie narządów, chociaż w praktyce lekarze mogą zrezygnować przy zdecydowanym sprzeciwie.",
+      "incorrect_answers": [
+        "W Polsce pobieranie narządów odbywa się wyłącznie na podstawie wyraźnej zgody dawcy (opting in).",
+        "Decyzja o pobraniu narządów należy do rodziny zmarłego, niezależnie od ustawy.",
+        "Regulacje prawne nie określają żadnego modelu zgody – decyzja jest całkowicie dowolna."
+      ]
+    },
+    {
+      "question": "72. Jakie kryteria są brane pod uwagę przy pobieraniu narządów od żywych dawców?",
+      "correct_answer": "Kryteria obejmują zgodność tkankową, ocenę ryzyka dla dawcy, wolę dawcy wyrażoną świadomie oraz to, czy pobranie organu przyniesie znaczącą korzyść biorcy.",
+      "incorrect_answers": [
+        "Decyzja opiera się wyłącznie na zgodności tkankowej, niezależnie od ryzyka dla dawcy.",
+        "Pobieranie organów od żywych dawców odbywa się bez konieczności wyrażania zgody przez dawcę.",
+        "Kryteria te nie obejmują oceny ryzyka – ważna jest tylko korzyść dla biorcy."
+      ]
+    },
+    {
+      "question": "73. Jakie argumenty przemawiają przeciw pobieraniu narządów od żywych dawców w kontekście etyki?",
+      "correct_answer": "Przeciwwskazaniami są ryzyko dla zdrowia dawcy, potencjalna presja w relacjach rodzinnych oraz zagrożenie dla autonomii dawcy, co budzi dylematy związane z zasadą 'primum non nocere'.",
+      "incorrect_answers": [
+        "Nie ma żadnych argumentów przeciwnych – pobieranie narządów od żywych dawców jest całkowicie bezpieczne.",
+        "Głównym argumentem jest tylko ekonomia – koszty procedury są zbyt wysokie.",
+        "Argumenty etyczne dotyczą wyłącznie kwestii związanych z biodeterminacją, a nie zdrowiem dawcy."
+      ]
+    },
+    {
+      "question": "74. Jakie kryteria przydziału leczenia obowiązują w sytuacjach ograniczonych zasobów medycznych?",
+      "correct_answer": "Przydział opiera się na pilności interwencji, kolejności zgłoszeń przy równorzędnych przypadkach oraz wcześniejszych świadczeniach, przy zachowaniu równości i niedyskryminacji.",
+      "incorrect_answers": [
+        "Decyzje są podejmowane wyłącznie na podstawie wieku pacjenta.",
+        "Leczenie przydziela się losowo, bez uwzględnienia stanu klinicznego pacjenta.",
+        "Priorytet mają pacjenci o najwyższych kosztach leczenia, aby zoptymalizować wydatki."
+      ]
+    },
+    {
+      "question": "75. Jakie narzędzia ekonomiczne stosuje się do oceny efektywności kosztowej świadczeń zdrowotnych?",
+      "correct_answer": "Stosuje się wskaźniki QALY (Quality-Adjusted Life Year) i DALY (Disability-Adjusted Life Year), które mierzą odpowiednio jakość i długość życia oraz lata utracone z powodu choroby lub niepełnosprawności.",
+      "incorrect_answers": [
+        "Do oceny efektywności stosuje się jedynie wskaźnik koszt/benefit bez uwzględnienia jakości życia.",
+        "Narzędziem jest tylko analiza kosztów, bez uwzględnienia wyników zdrowotnych.",
+        "Stosuje się wskaźniki, które mierzą tylko koszty leczenia, a nie efektywność."
+      ]
+    },
+    {
+      "question": "76. Dlaczego stosowanie wskaźników takich jak QALY może być kontrowersyjne?",
+      "correct_answer": "Mogą one prowadzić do dyskryminacji grup o krótszej oczekiwanej długości życia, np. osób starszych, oraz nie uwzględniać subiektywnej jakości życia.",
+      "incorrect_answers": [
+        "QALY nie jest kontrowersyjne, ponieważ zawsze odzwierciedla obiektywnie efektywność leczenia.",
+        "Kontrowersje wynikają tylko z błędów w obliczeniach, a nie z samej koncepcji wskaźnika.",
+        "Dyskusje dotyczą jedynie DALY, a QALY jest powszechnie akceptowane."
+      ]
+    },
+    {
+      "question": "77. Jakie są główne zasady etyczne przydzielania ograniczonych zasobów w ochronie zdrowia?",
+      "correct_answer": "Zasady obejmują: pilność interwencji, sprawiedliwą dystrybucję, niedyskryminację, a także maksymalizację korzyści zdrowotnych przy minimalizacji obciążeń.",
+      "incorrect_answers": [
+        "Zasady opierają się wyłącznie na kryteriach ekonomicznych.",
+        "Decyzje są podejmowane tylko na podstawie wieku i statusu społecznego pacjenta.",
+        "Przydział zasobów odbywa się losowo, bez względu na stan zdrowia."
+      ]
+    },
+    {
+      "question": "78. Jakie są główne elementy skutecznej kampanii edukacyjnej w kontekście pozyskiwania zgody wyrażonej (opting in) na pobieranie narządów?",
+      "correct_answer": "Kampania powinna koncentrować się na szerokim informowaniu społeczeństwa, zwiększaniu świadomości i zachęcaniu do aktywnego wyrażania zgody na bycie dawcą.",
+      "incorrect_answers": [
+        "Kampania powinna wyłącznie informować, bez nawoływania do aktywnego zgłaszania zgody.",
+        "Edukacja jest zbędna, gdyż decyzja o dawstwie narządów jest sprawą prywatną.",
+        "Skuteczna kampania polega tylko na prezentowaniu statystyk, bez elementu emocjonalnego."
+      ]
+    },
+    {
+      "question": "79. Jakie regulacje prawne określają zasady pobierania, przechowywania i przeszczepiania narządów w Polsce?",
+      "correct_answer": "Podstawą prawną jest Ustawa o pobieraniu, przechowywaniu i przeszczepianiu komórek, tkanek i narządów, która określa warunki oraz system zgody domniemanej (opting out).",
+      "incorrect_answers": [
+        "Regulacje te nie istnieją – decyzje podejmowane są wyłącznie przez placówki medyczne.",
+        "Prawo opiera się wyłącznie na dyrektywach Unii Europejskiej, bez ustaw krajowych.",
+        "Decyzje dotyczące pobierania narządów są podejmowane wyłącznie przez sądy."
+      ]
+    },
+    {
+      "question": "80. Jakie dylematy etyczne mogą wystąpić przy pobieraniu narządów, jeśli rodzina pacjenta wyrazi zdecydowany sprzeciw?",
+      "correct_answer": "Chociaż prawnie rodzina nie ma decydującego zdania, w praktyce silny sprzeciw rodziny może skomplikować procedurę pobierania narządów, rodząc dylemat pomiędzy obowiązkiem prawnym a etycznym szacunkiem dla uczuć bliskich zmarłego.",
+      "incorrect_answers": [
+        "Sprzeciw rodziny nie ma żadnego znaczenia, ponieważ decyzja jest wyłącznie administracyjna.",
+        "Rodzina ma decydujące zdanie i może uniemożliwić pobranie narządów, niezależnie od ustawy.",
+        "Dylematy etyczne nie występują, gdyż procedura pobierania narządów odbywa się zawsze zgodnie z wolą lekarzy."
+      ]
+    },
+    {
+      "question": "81. Jakie są główne różnice między eksperymentem badawczym a eksperymentem leczniczym w kontekście poziomu ryzyka i spodziewanych korzyści?",
+      "correct_answer": "Eksperyment badawczy jest prowadzony wyłącznie w celu rozwoju wiedzy naukowej, przy minimalnym poziomie ryzyka i bez obietnicy bezpośredniej korzyści dla uczestnika, natomiast eksperyment leczniczy dotyczy wstępnego testowania metod, które mają potencjalnie przynieść bezpośrednią poprawę stanu pacjenta, przy czym spodziewane korzyści muszą znacząco przewyższać ryzyko.",
+      "incorrect_answers": [
+        "Oba rodzaje eksperymentów zakładają wysokie ryzyko, ponieważ mają potencjał na rewolucyjne odkrycia.",
+        "Eksperyment badawczy wymaga zgody zastępczej, a eksperyment leczniczy – wyłącznie ustnej zgody pacjenta.",
+        "W eksperymentach leczniczych nie uwzględnia się zasad minimalizacji ryzyka, a jedynie korzyści naukowych."
+      ]
+    },
+    {
+      "question": "82. Jakie szczegółowe wymogi formalne i etyczne powinny zostać spełnione przy prowadzeniu eksperymentów na osobach niezdolnych do wyrażenia zgody?",
+      "correct_answer": "W eksperymentach na osobach niezdolnych do wyrażenia zgody należy uzyskać pisemną zgodę zastępczą od przedstawiciela ustawowego, a jeżeli uczestnik jest częściowo zdolny do wyrażenia przyzwolenia, również jego zgoda; eksperyment nie może wiązać się z ryzykiem przekraczającym minimalny poziom, a potencjalne korzyści powinny dotyczyć populacji, którą reprezentuje uczestnik.",
+      "incorrect_answers": [
+        "Wystarczy zgoda ustna zastępcy, jeżeli pacjent nie jest w stanie formalnie wyrazić zgody.",
+        "Eksperymenty na takich osobach mogą być prowadzone nawet przy ryzyku przekraczającym minimalny poziom, jeśli potencjalne korzyści są ogromne.",
+        "Nie są wymagane żadne dodatkowe procedury, wystarczy dokumentacja eksperymentu."
+      ]
+    },
+    {
+      "question": "83. Jakie kryteria etyczne należy uwzględnić przy stosowaniu placebo w badaniach klinicznych, aby zapewnić bezpieczeństwo i dobro uczestników?",
+      "correct_answer": "Przy stosowaniu placebo należy upewnić się, że uczestnicy nie są pozbawieni dostępu do udokumentowanej skutecznej interwencji, a badanie nie naraża ich na dodatkowe ryzyko poważnych lub nieodwracalnych szkód; konieczne jest porównanie korzyści i ryzyka nowej interwencji z najlepszą dostępną metodą leczenia.",
+      "incorrect_answers": [
+        "Placebo może być stosowane bez względu na istnienie skutecznych metod, o ile uczestnicy wyrażą na to zgodę.",
+        "Kwestie etyczne są pomijane, gdyż placebo służy wyłącznie ocenie nowej interwencji.",
+        "Placebo można stosować tylko wtedy, gdy uczestnicy rezygnują z wszelkich innych opcji terapeutycznych."
+      ]
+    },
+    {
+      "question": "84. Jakie elementy powinna zawierać skuteczna kampania edukacyjna dotycząca zgody wyrażonej (opting in) na pobieranie narządów ex mortuo?",
+      "correct_answer": "Skuteczna kampania edukacyjna powinna obejmować szeroką informację o korzyściach płynących z dawstwa, wyjaśnienie procedur medycznych i prawnych, promowanie aktywnego wyrażania zgody oraz wykorzystanie mediów i działań społecznych, aby zwiększyć świadomość i zaufanie społeczne.",
+      "incorrect_answers": [
+        "Kampania powinna skupiać się wyłącznie na statystykach medycznych, bez elementów emocjonalnych.",
+        "Wystarczy przekazać krótką informację podczas rejestracji, bez dalszych działań edukacyjnych.",
+        "Kampania edukacyjna nie ma wpływu na decyzje dotyczące dawstwa narządów."
+      ]
+    },
+    {
+      "question": "85. Jakie mechanizmy kontroli i nadzoru powinny być wprowadzone przy selekcji pacjentów w sytuacjach ograniczonych zasobów medycznych, aby zapewnić sprawiedliwość i przejrzystość procesu?",
+      "correct_answer": "Powinny być wprowadzone procedury dokumentacji decyzji, niezależne komisje oceniające kryteria selekcji, audyty wewnętrzne oraz mechanizmy odwoławcze, które umożliwią weryfikację, czy decyzje są podejmowane na podstawie obiektywnych kryteriów, takich jak pilność interwencji i równość dostępu.",
+      "incorrect_answers": [
+        "Kontrola nad selekcją pacjentów powinna odbywać się wyłącznie przez kierownika oddziału, bez niezależnych audytów.",
+        "Nadzór jest zbędny, gdyż decyzje są podejmowane wyłącznie przez doświadczonych lekarzy.",
+        "Mechanizmy odwoławcze mogą spowalniać proces selekcji, dlatego nie powinny być stosowane."
+      ]
+    },
+    {
+      "question": "86. W jaki sposób wskaźniki QALY i DALY mogą wpłynąć na decyzje dotyczące alokacji środków w ochronie zdrowia, a jakie są ich ograniczenia?",
+      "correct_answer": "QALY i DALY pozwalają oszacować efektywność kosztową leczenia poprzez analizę jakości i długości życia lub utraty zdrowia, co pomaga w optymalizacji alokacji środków, jednak mogą prowadzić do dyskryminacji grup, takich jak osoby starsze, oraz nie oddają pełnej subiektywnej jakości życia pacjentów.",
+      "incorrect_answers": [
+        "Wskaźniki te umożliwiają dokładne określenie wartości każdego pacjenta, bez żadnych ograniczeń etycznych.",
+        "QALY i DALY nie mają wpływu na decyzje alokacyjne, a służą wyłącznie do celów statystycznych.",
+        "Stosowanie QALY i DALY wyklucza konieczność uwzględnienia kosztów leczenia w decyzjach alokacyjnych."
+      ]
+    },
+    {
+      "question": "87. W jakich sytuacjach może wystąpić konflikt między przywilejem terapeutycznym a obowiązkiem informacyjnym lekarza, i jak należy go rozwiązać?",
+      "correct_answer": "Konflikt może wystąpić, gdy lekarz uważa, że pełne ujawnienie niepomyślnego rokowania może pogorszyć stan pacjenta, jednak pacjent lub jego przedstawiciel domaga się pełnej informacji; w takim przypadku lekarz musi znaleźć równowagę między ochroną dobra pacjenta a obowiązkiem informacyjnym, zapewniając dostęp do pełnych informacji na żądanie pacjenta.",
+      "incorrect_answers": [
+        "Lekarz może całkowicie zignorować żądanie pacjenta, stosując przywilej terapeutyczny bez ograniczeń.",
+        "Konflikt rozwiązuje się wyłącznie poprzez decyzję administracyjną szpitala, bez konsultacji z pacjentem.",
+        "W sytuacjach konfliktowych lekarz powinien zawsze przekazać pełną informację, niezależnie od potencjalnego pogorszenia stanu pacjenta."
+      ]
+    },
+    {
+      "question": "88. Jakie wyzwania praktyczne wiążą się z implementacją klauzuli sumienia w placówkach publicznych, i jakie są jej główne ograniczenia?",
+      "correct_answer": "Wyzwania obejmują konieczność zapewnienia, że placówki publiczne realizują politykę państwa w zakresie udzielania pomocy, brak możliwości powoływania się na klauzulę przez instytucje oraz konieczność dokumentowania decyzji przez lekarzy zatrudnionych na podstawie stosunku pracy.",
+      "incorrect_answers": [
+        "Klauzula sumienia nie wiąże się z żadnymi wyzwaniami, gdyż jest to wyłącznie prywatna sprawa lekarza.",
+        "Placówki publiczne mają pełną swobodę stosowania klauzuli sumienia bez konieczności dokumentacji.",
+        "Głównym ograniczeniem klauzuli sumienia jest brak potrzeby informowania przełożonych o decyzjach lekarza."
+      ]
+    },
+    {
+      "question": "89. Jakie warunki muszą być spełnione przy stosowaniu przymusu bezpośredniego u pacjentów z zaburzeniami psychicznymi według polskiej ustawy o ochronie zdrowia psychicznego?",
+      "correct_answer": "Przymus bezpośredni może być zastosowany, gdy pacjent dopuszcza się zagrożenia dla własnego zdrowia lub innych, niszczy mienie lub poważnie zakłóca funkcjonowanie placówki, a przed jego zastosowaniem pacjent musi zostać uprzedzony, a jego stan kontrolowany (np. co 15 minut), z określonymi ograniczeniami czasowymi.",
+      "incorrect_answers": [
+        "Przymus bezpośredni można stosować wobec każdego pacjenta odmawiającego leczenia, niezależnie od jego zachowania.",
+        "Warunki stosowania przymusu nie wymagają wcześniejszego uprzedzenia pacjenta, gdyż działanie musi być natychmiastowe.",
+        "Przymus można stosować tylko w przypadku, gdy pacjent odmawia przyjęcia leków, niezależnie od zagrożenia dla innych."
+      ]
+    },
+    {
+      "question": "90. Jakie konsekwencje prawne mogą wyniknąć z naruszenia zasad świadomej zgody pacjenta?",
+      "correct_answer": "Naruszenie zasad świadomej zgody może skutkować odpowiedzialnością cywilną, karną lub dyscyplinarną lekarza, a decyzje medyczne podejmowane bez pełnej zgody pacjenta mogą być prawnie nieważne.",
+      "incorrect_answers": [
+        "Naruszenie zasad świadomej zgody nie pociąga za sobą żadnych konsekwencji prawnych, o ile leczenie jest skuteczne.",
+        "Odpowiedzialność prawna dotyczy tylko przypadków, gdy pacjent wyraził sprzeciw wobec leczenia.",
+        "Konsekwencje są ograniczone jedynie do utraty licencji, bez dalszych sankcji karnych lub cywilnych."
+      ]
+    },
+    {
+      "question": "91. Jakie dokumenty międzynarodowe regulują eksperymenty medyczne na ludziach i jakie są ich główne zasady?",
+      "correct_answer": "Główne dokumenty to Deklaracja Helsińska, Konwencja z Oviedo i Raport z Belmont, które podkreślają zasadę szacunku do osoby, dobroczynienia, nieszkodzenia oraz sprawiedliwości w badaniach medycznych.",
+      "incorrect_answers": [
+        "Regulacje dotyczące eksperymentów medycznych są określone wyłącznie przez krajowe Kodeksy Etyki Lekarskiej.",
+        "Jedynym dokumentem regulującym eksperymenty medyczne jest Deklaracja UNESCO.",
+        "Eksperymenty medyczne są regulowane wyłącznie przez przepisy WHO, bez odniesienia do innych dokumentów."
+      ]
+    },
+    {
+      "question": "92. W jaki sposób prawo chroni pacjentów z zaburzeniami psychicznymi przed nadużyciami przymusu?",
+      "correct_answer": "Prawo wprowadza ścisłe kryteria stosowania przymusu, ogranicza czas jego trwania, wymaga uprzedzenia pacjenta, regularnej kontroli stanu zdrowia oraz decyzji lekarza lub pielęgniarki, co ma na celu minimalizację ryzyka nadużyć.",
+      "incorrect_answers": [
+        "Prawo pozwala na stosowanie przymusu bez ograniczeń, jeśli pacjent odmawia leczenia.",
+        "Ochrona pacjentów z zaburzeniami psychicznymi nie obejmuje kwestii przymusu, a jedynie wolności wyboru leczenia.",
+        "Nadużycia przymusu nie są regulowane prawnie, lecz pozostają jedynie kwestią etyczną."
+      ]
+    },
+    {
+      "question": "93. Jakie kryteria decydują o kwalifikowaniu eksperymentu leczniczego jako dopuszczalnego, a kiedy eksperyment powinien być przerwany?",
+      "correct_answer": "Eksperyment leczniczy jest dopuszczalny, gdy metoda oferuje rozsądną szansę na poprawę stanu pacjenta, przy minimalnym ryzyku, a potencjalne korzyści znacząco przewyższają ryzyko; eksperyment musi być przerwany, jeśli dobro pacjenta zostaje zagrożone.",
+      "incorrect_answers": [
+        "Eksperyment leczniczy jest dopuszczalny niezależnie od poziomu ryzyka, jeśli przyniesie przełomowe odkrycia.",
+        "Nie ma wyraźnych kryteriów – decyzję podejmuje wyłącznie lekarz, bez formalnych wymagań.",
+        "Eksperyment może trwać, nawet jeśli ryzyko przewyższa korzyści, dopóki pacjent wyrazi na to zgodę."
+      ]
+    },
+    {
+      "question": "94. Jakie etyczne wyzwania wiążą się z wdrażaniem procedur medycyny terminalnej, takich jak sedacja paliatywna?",
+      "correct_answer": "Wyzwania obejmują balansowanie między uśmierzeniem cierpienia a ewentualnym skróceniem życia, konieczność zachowania autonomii pacjenta oraz rozróżnienie między sedacją paliatywną a eutanazją.",
+      "incorrect_answers": [
+        "Główne wyzwanie polega jedynie na zapewnieniu szybkiej interwencji, bez względu na etyczne aspekty.",
+        "Procedury medycyny terminalnej nie budzą żadnych dylematów etycznych, gdyż są standardowymi procedurami medycznymi.",
+        "Etyczne wyzwania dotyczą wyłącznie kwestii ekonomicznych, a nie opieki nad pacjentem."
+      ]
+    },
+    {
+      "question": "95. Jakie warunki muszą być spełnione, aby decyzja o zaprzestaniu resuscytacji była zgodna z przepisami KEL Art. 33?",
+      "correct_answer": "Decyzja musi być oparta na negatywnej ocenie szans leczniczych przez lekarza lub zespół lekarzy, przy czym pacjenci terminalni nie są poddawani resuscytacji zgodnie z tym przepisem.",
+      "incorrect_answers": [
+        "Decyzję o zaprzestaniu resuscytacji podejmuje wyłącznie rodzina pacjenta.",
+        "Resuscytacja musi być prowadzona u każdego pacjenta, niezależnie od stanu klinicznego.",
+        "Decyzja o zaprzestaniu resuscytacji jest podejmowana tylko przez administrację szpitala."
+      ]
+    },
+    {
+      "question": "96. Jakie są kluczowe elementy, które powinna zawierać dokumentacja medyczna przy podejmowaniu decyzji o terapii daremnej?",
+      "correct_answer": "Dokumentacja powinna zawierać dokładne uzasadnienie decyzji, opis zastosowanych metod podtrzymywania funkcji narządów, ocenę ryzyka i korzyści oraz potwierdzenie, że decyzja była podejmowana zgodnie z obowiązującymi procedurami i z uwzględnieniem woli pacjenta.",
+      "incorrect_answers": [
+        "Dokumentacja musi zawierać tylko informacje o zastosowanych metodach, bez uzasadnienia decyzji.",
+        "Wystarczy, że decyzja zostanie przekazana ustnie, bez konieczności pisemnej rejestracji.",
+        "Elementy dokumentacji nie mają wpływu na ocenę etyczną terapii daremnej."
+      ]
+    },
+    {
+      "question": "97. W jaki sposób zasada 'primum non nocere' wpływa na decyzje lekarza dotyczące pobierania narządów od żywych dawców?",
+      "correct_answer": "Lekarz musi upewnić się, że procedura nie naruszy zasady 'primum non nocere' – czyli nie spowoduje szkody dla dawcy, nawet jeśli przyniesie korzyści biorcy; kluczowe jest zachowanie równowagi między potencjalną korzyścią a ryzykiem dla dawcy.",
+      "incorrect_answers": [
+        "Zasada 'primum non nocere' dotyczy wyłącznie pacjentów, a nie dawców narządów.",
+        "Lekarz może zignorować tę zasadę, jeśli procedura przynosi lepsze wyniki transplantacji.",
+        "Decyzje dotyczące pobierania narządów nie muszą uwzględniać zasady 'primum non nocere', gdyż dotyczą one tylko leczenia pacjenta."
+      ]
+    },
+    {
+      "question": "98. Jakie czynniki powinny być brane pod uwagę przy podejmowaniu decyzji o przydziale ograniczonych zasobów medycznych w sytuacjach kryzysowych?",
+      "correct_answer": "Decyzje powinny opierać się na pilności interwencji, stanie klinicznym pacjenta, szansach na poprawę zdrowia oraz zasadach równości i sprawiedliwości, przy zachowaniu transparentności procesu decyzyjnego.",
+      "incorrect_answers": [
+        "Decyzje podejmowane są wyłącznie na podstawie wieku pacjenta, niezależnie od stanu zdrowia.",
+        "Przydział zasobów odbywa się losowo, bez uwzględnienia stanu klinicznego.",
+        "Decyzje opierają się wyłącznie na kryteriach ekonomicznych, bez uwzględnienia pilności interwencji."
+      ]
+    },
+    {
+      "question": "99. Jakie konsekwencje etyczne i społeczne wiążą się ze stosowaniem narzędzi ekonomicznych, takich jak QALY, w systemie opieki zdrowotnej?",
+      "correct_answer": "Stosowanie wskaźników takich jak QALY może usprawnić alokację środków, ale jednocześnie budzi obawy o dyskryminację grup o krótszej oczekiwanej długości życia, co rodzi dylematy związane z równością i sprawiedliwością w opiece zdrowotnej.",
+      "incorrect_answers": [
+        "Wskaźniki te nie mają żadnych konsekwencji etycznych, gdyż są jedynie narzędziem statystycznym.",
+        "QALY zawsze gwarantuje optymalną alokację środków bez względu na wiek pacjentów.",
+        "Stosowanie QALY eliminuje potrzebę uwzględniania aspektów etycznych w decyzjach medycznych."
+      ]
+    },
+    {
+      "question": "100. Jakie są kluczowe elementy skutecznego wdrożenia zasad eksperymentów medycznych w placówkach klinicznych, aby zapewnić ochronę praw pacjenta i postęp naukowy?",
+      "correct_answer": "Kluczowe elementy to przestrzeganie wymogów zgody (świadome, pisemne, z możliwością wycofania), minimalizacja ryzyka, stała ocena stanu pacjenta, transparentna dokumentacja oraz stosowanie się do międzynarodowych standardów etycznych i prawnych.",
+      "incorrect_answers": [
+        "Wdrożenie zasad eksperymentów medycznych opiera się wyłącznie na ocenie ryzyka przez lekarza, bez potrzeby zgody pacjenta.",
+        "Kluczowym elementem jest jedynie uzyskanie zgody pacjenta, bez konieczności stałej kontroli stanu zdrowia.",
+        "Przestrzeganie zasad etycznych ogranicza się do sporadycznych audytów, bez potrzeby ciągłej dokumentacji."
+      ]
+    }
+  ]
+}

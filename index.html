@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz Medyczny</title>
+    <style>
+      /* Nowoczesny dark mode */
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #1e1e2f;
+        color: #c7c7d3;
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: #2c2c48;
+        padding: 1.5rem 1rem;
+        text-align: center;
+        border-bottom: 2px solid #3e3e65;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+        color: #f0f0f5;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        background-color: #252539;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid #3e3e65;
+      }
+
+      nav button {
+        background-color: #3a3a5e;
+        color: #f0f0f5;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 25px;
+        transition: background-color 0.3s ease;
+      }
+
+      nav button:hover,
+      nav button.active {
+        background-color: #5e5ea3;
+      }
+
+      .container {
+        padding: 1.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      /* Strona główna */
+      #homeSection {
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      #homeSection h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #f0f0f5;
+      }
+
+      #homeSection p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        color: #d1d1e0;
+      }
+
+      .btn {
+        background-color: #5e5ea3;
+        color: #f0f0f5;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-top: 1rem;
+        border-radius: 25px;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: #7a7ab3;
+      }
+
+      /* Quiz */
+      #quizSection {
+        margin-top: 2rem;
+      }
+
+      .counter {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        text-align: right;
+        color: #f0f0f5;
+      }
+
+      .question-card {
+        background-color: #2c2c48;
+        border: 1px solid #3e3e65;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+      }
+
+      .question-card div:first-child {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        color: #f0f0f5;
+      }
+
+      .answers button {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: 0.5rem 0;
+        padding: 0.75rem;
+        background-color: #3a3a5e;
+        color: #c7c7d3;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: 1rem;
+      }
+
+      .answers button:hover {
+        background-color: #4e4e7e;
+      }
+
+      .answers button.correct {
+        background-color: #2ecc71 !important;
+        color: #fff;
+      }
+
+      .answers button.wrong {
+        background-color: #e74c3c !important;
+        color: #fff;
+      }
+
+      .disabled {
+        pointer-events: none;
+        opacity: 0.7;
+      }
+
+      /* Lista wszystkich pytań */
+      #allQuestionsSection h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #f0f0f5;
+      }
+
+      .all-questions-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .all-questions-list li {
+        padding: 0.75rem;
+        border-bottom: 1px solid #3e3e65;
+        font-size: 1rem;
+      }
+
+      .answered-correct {
+        color: #2ecc71;
+      }
+
+      .answered-wrong {
+        color: #e74c3c;
+      }
+
+      .not-used {
+        color: #7a7ab3;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Quiz Medyczny</h1>
+    </header>
+    <nav>
+      <button id="homeTabBtn" class="active">Strona Główna</button>
+      <button id="quizTabBtn">Quiz</button>
+      <button id="allQuestionsTabBtn">Wszystkie pytania</button>
+    </nav>
+    <div class="container">
+      <!-- Strona główna -->
+      <div id="homeSection">
+        <h2>Niewierny Tomaszu witam w Quizie!</h2>
+        <p>Quiz składa się z 15 pytań. Aby zdać, musisz zdobyć 75%</p>
+        <button id="startQuizBtn" class="btn">Start Quiz</button>
+      </div>
+
+      <!-- Sekcja quizu -->
+      <div id="quizSection" style="display: none">
+        <div class="counter" id="questionCounter">0 / 15</div>
+        <div id="questionContainer"></div>
+        <button id="nextBtn" class="btn" style="display: none">Następne</button>
+        <div
+          id="quizResult"
+          style="font-size: 1.2rem; font-weight: bold; margin-top: 1rem"
+        ></div>
+        <button id="restartBtn" class="btn" style="display: none">
+          Powtórz quiz
+        </button>
+      </div>
+
+      <!-- Sekcja wszystkich pytań -->
+      <div id="allQuestionsSection" style="display: none">
+        <h2>Lista wszystkich pytań</h2>
+        <ul id="allQuestionsList" class="all-questions-list"></ul>
+      </div>
+    </div>
+
+    <script>
+      let questionsData = []; // Pobieramy z pliku questions.json
+      let quizQuestions = [];
+      let currentQuestionIndex = 0;
+      let score = 0;
+      let answeredCount = 0;
+      // Obiekt do śledzenia statusu wszystkich pytań (indeks: status)
+      // status: "not_used", "answered_correct", "answered_wrong"
+      const questionsStatus = {};
+
+      // Funkcja tasująca tablicę (Fisher-Yates)
+      function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      // Funkcja, która usuwa numerację z początku pytania (np. "63. ")
+      function cleanQuestionText(text) {
+        return text.replace(/^\d+\.\s*/, "");
+      }
+
+      // Funkcja renderująca aktualne pytanie (jedno pytanie na raz)
+      function renderCurrentQuestion() {
+        const container = document.getElementById("questionContainer");
+        container.innerHTML = "";
+        if (currentQuestionIndex >= quizQuestions.length) {
+          finishQuiz();
+          return;
+        }
+        updateCounter();
+        const q = quizQuestions[currentQuestionIndex];
+        const card = document.createElement("div");
+        card.classList.add("question-card");
+
+        // Wyświetlamy treść pytania - bez numeracji (używamy cleanQuestionText)
+        const questionEl = document.createElement("div");
+        questionEl.textContent = cleanQuestionText(q.question);
+        card.appendChild(questionEl);
+
+        // Tworzymy przyciski odpowiedzi
+        const answersDiv = document.createElement("div");
+        answersDiv.classList.add("answers");
+        const answers = shuffle([q.correct_answer, ...q.incorrect_answers]);
+        answers.forEach((answer) => {
+          const btn = document.createElement("button");
+          btn.textContent = answer;
+          btn.addEventListener("click", function () {
+            if (btn.classList.contains("disabled")) return;
+            if (answer === q.correct_answer) {
+              btn.classList.add("correct");
+              score++;
+              const indexInAll = questionsData.findIndex(
+                (item) => item.question === q.question
+              );
+              questionsStatus[indexInAll] = "answered_correct";
+            } else {
+              btn.classList.add("wrong");
+              Array.from(answersDiv.children).forEach((b) => {
+                if (b.textContent === q.correct_answer) {
+                  b.classList.add("correct");
+                }
+              });
+              const indexInAll = questionsData.findIndex(
+                (item) => item.question === q.question
+              );
+              questionsStatus[indexInAll] = "answered_wrong";
+            }
+            Array.from(answersDiv.children).forEach((b) => {
+              b.classList.add("disabled");
+            });
+            answeredCount++;
+            document.getElementById("nextBtn").style.display = "block";
+            updateResult();
+            renderAllQuestions();
+          });
+          answersDiv.appendChild(btn);
+        });
+        card.appendChild(answersDiv);
+        container.appendChild(card);
+      }
+
+      // Funkcja aktualizująca licznik pytań (np. 7 / 15)
+      function updateCounter() {
+        const counter = document.getElementById("questionCounter");
+        counter.textContent =
+          currentQuestionIndex + 1 + " / " + quizQuestions.length;
+      }
+
+      // Funkcja przechodząca do następnego pytania
+      function nextQuestion() {
+        currentQuestionIndex++;
+        document.getElementById("nextBtn").style.display = "none";
+        renderCurrentQuestion();
+      }
+
+      // Funkcja aktualizująca wynik quizu
+      function updateResult() {
+        const resultDiv = document.getElementById("quizResult");
+        resultDiv.textContent = `Wynik: ${score} / ${quizQuestions.length}`;
+      }
+
+      // Funkcja kończąca quiz
+      function finishQuiz() {
+        const container = document.getElementById("questionContainer");
+        container.innerHTML = "<p>Quiz zakończony!</p>";
+        updateResult();
+        if (score >= 0.75 * quizQuestions.length) {
+          document.getElementById("quizResult").textContent += " – Zdałeś!";
+        } else {
+          document.getElementById("quizResult").textContent += " – Nie zdałeś!";
+        }
+        document.getElementById("nextBtn").style.display = "none";
+        document.getElementById("restartBtn").style.display = "block";
+        document.getElementById("questionCounter").textContent = "";
+      }
+
+      // Funkcja restartująca quiz
+      function restartQuiz() {
+        quizQuestions = shuffle([...questionsData]).slice(0, 15);
+        currentQuestionIndex = 0;
+        score = 0;
+        answeredCount = 0;
+        questionsData.forEach((q, index) => {
+          questionsStatus[index] = "not_used";
+        });
+        document.getElementById("restartBtn").style.display = "none";
+        updateResult();
+        renderCurrentQuestion();
+        renderAllQuestions();
+      }
+
+      // Funkcja renderująca listę wszystkich pytań (zakładka)
+      function renderAllQuestions() {
+        const allQuestionsList = document.getElementById("allQuestionsList");
+        allQuestionsList.innerHTML = "";
+        questionsData.forEach((q, index) => {
+          const li = document.createElement("li");
+          // W zakładce wszystkie pytania wyświetlamy pełny tekst pytania (wraz z numeracją, jeśli występuje)
+          li.textContent = q.question;
+          if (questionsStatus[index] === "answered_correct") {
+            li.classList.add("answered-correct");
+            li.textContent += " (Poprawnie)";
+          } else if (questionsStatus[index] === "answered_wrong") {
+            li.classList.add("answered-wrong");
+            li.textContent += " (Niepoprawnie)";
+          } else {
+            li.classList.add("not-used");
+            li.textContent += " (Nie losowano)";
+          }
+          allQuestionsList.appendChild(li);
+        });
+      }
+
+      // Obsługa zakładek
+      document
+        .getElementById("homeTabBtn")
+        .addEventListener("click", function () {
+          document.getElementById("homeSection").style.display = "block";
+          document.getElementById("quizSection").style.display = "none";
+          document.getElementById("allQuestionsSection").style.display = "none";
+          this.classList.add("active");
+          document.getElementById("quizTabBtn").classList.remove("active");
+          document
+            .getElementById("allQuestionsTabBtn")
+            .classList.remove("active");
+        });
+      document
+        .getElementById("quizTabBtn")
+        .addEventListener("click", function () {
+          document.getElementById("homeSection").style.display = "none";
+          document.getElementById("quizSection").style.display = "block";
+          document.getElementById("allQuestionsSection").style.display = "none";
+          this.classList.add("active");
+          document.getElementById("homeTabBtn").classList.remove("active");
+          document
+            .getElementById("allQuestionsTabBtn")
+            .classList.remove("active");
+        });
+      document
+        .getElementById("allQuestionsTabBtn")
+        .addEventListener("click", function () {
+          document.getElementById("homeSection").style.display = "none";
+          document.getElementById("quizSection").style.display = "none";
+          document.getElementById("allQuestionsSection").style.display =
+            "block";
+          this.classList.add("active");
+          document.getElementById("homeTabBtn").classList.remove("active");
+          document.getElementById("quizTabBtn").classList.remove("active");
+          renderAllQuestions();
+        });
+
+      // Obsługa przycisku "Następne"
+      document
+        .getElementById("nextBtn")
+        .addEventListener("click", nextQuestion);
+      // Obsługa przycisku "Powtórz quiz"
+      document
+        .getElementById("restartBtn")
+        .addEventListener("click", restartQuiz);
+      // Obsługa przycisku "Start Quiz" na stronie głównej
+      document
+        .getElementById("startQuizBtn")
+        .addEventListener("click", function () {
+          document.getElementById("homeSection").style.display = "none";
+          document.getElementById("quizSection").style.display = "block";
+          document.getElementById("homeTabBtn").classList.remove("active");
+          document.getElementById("quizTabBtn").classList.add("active");
+          document
+            .getElementById("allQuestionsTabBtn")
+            .classList.remove("active");
+          restartQuiz();
+        });
+
+      // Ładowanie pytań z pliku questions.json
+      fetch("questions.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Nie udało się pobrać pytań");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          // Zakładamy, że plik JSON ma strukturę: { "questions": [ ... ] }
+          questionsData = data.questions;
+          // Inicjalizacja statusu dla każdego pytania
+          questionsData.forEach((q, index) => {
+            questionsStatus[index] = "not_used";
+          });
+          renderAllQuestions();
+        })
+        .catch((error) => {
+          console.error("Błąd podczas ładowania pytań:", error);
+        });
+    </script>
+  </body>
+</html>
